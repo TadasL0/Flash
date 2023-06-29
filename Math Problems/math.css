@@ -1,0 +1,43 @@
+body {
+    font-family: 'Fira Code', monospace;
+    background: url(chalkboard.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(41, 41, 41);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+#problem, #result, #correctAnswer {
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+
+#owl {
+    width: 20%;
+    height: 20%;
+}
+
+#leaderboard {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    color: #f1f1f1;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+}

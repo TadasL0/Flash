@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Problem Generator</title>
+    <link rel="stylesheet" type="text/css" href="math.css">
+</head>
+<body>
+    <h1>Math Problem Generator</h1>
+    <p>Click the button to generate a new math problem.</p>
+    <button onclick="generateProblem()">Generate Problem</button>
+    <div id="problem"></div>
+    <br>
+    <input type="text" id="answer" placeholder="Enter your answer here">
+    <button id="checkAnswerButton" onclick="checkAnswer()">Check Answer</button>
+    <div id="result"></div>
+    <div id="correctAnswer"></div>
+    <img id="owl" src="owl_thinking.png">
+    <div id="leaderboard" class="top-right">
+        <h2>Leaderboard</h2>
+        <p id="currentStreak">Current Streak: 0</p>
+        <p id="longestStreak">Longest Streak: 0</p>
+    </div>
+    <script src="problem.js"></script>
+</body>
+</html>
